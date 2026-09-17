@@ -197,7 +197,7 @@ welcome_dialog_new (Gimp       *gimp,
   gchar         **accels;
 
   /* Translators: the %s string will be the version, e.g. "3.0". */
-  title = g_strdup_printf (_("Welcome to GIMP %s"), GIMP_VERSION);
+  title = g_strdup_printf (_("Welcome to my GIMP %s — vwgit"), GIMP_VERSION);
   windows = gimp_get_image_windows (gimp);
   dialog = gimp_dialog_new (title,
                             "gimp-welcome-dialog",
